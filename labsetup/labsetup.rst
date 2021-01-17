@@ -69,33 +69,33 @@ Nutanix Eraはマルチプルデータベースエンジンによって、一般
 
   #. **Save & Configure Environment** をクリックします。
 
-Windows Tools VMの展開
-++++++++++++++++++++++++++++
-
-このラボでのエクササイズのいくつかはWindows Tools VMに依存します。以下の手順に従ってディスクイメージから個人のVMを展開してください。
-
-#. **Prism Central** 内で:fa:`bars` **> Virtual Infrastructure > VMs** を選択します。
-
-#. **+ Create VM** をクリックします。
-
-#. 以下の項目を埋めてください。
-
-   - **Name** - *Initials*\ -WinToolsVM
-   - **Description** - Manually deployed Tools VM
-   - **vCPU(s)** - 2
-   - **Number of Cores per vCPU** - 1
-   - **Memory** - 4 GiB
-
-   - Select **+ Add New Disk**
-      - **Type** - DISK
-      - **Operation** - Clone from Image Service
-      - **Image** - WinToolsVM.qcow2
-      - Select **Add**
-
-   - Select **Add New NIC**
-      - **VLAN Name** - Secondary
-      - Select **Add**
-
-#. **Save** をクリックしてVMを作成します。
-
-#. *Initials*\ **-WinToolsVM** を起動します。
+.. Windows Tools VMの展開
+.. ++++++++++++++++++++++++++++
+..
+.. このラボでのエクササイズのいくつかはWindows Tools VMに依存します。以下の手順に従ってディスクイメージから個人のVMを展開してください。
+..
+.. #. **Prism Central** 内で:fa:`bars` **> Virtual Infrastructure > VMs** を選択します。
+..
+.. #. **+ Create VM** をクリックします。
+..
+.. #. 以下の項目を埋めてください。
+..
+..    - **Name** - *Initials*\ -WinToolsVM
+..    - **Description** - Manually deployed Tools VM
+..    - **vCPU(s)** - 2
+..    - **Number of Cores per vCPU** - 1
+..    - **Memory** - 4 GiB
+..
+..    - Select **+ Add New Disk**
+..       - **Type** - DISK
+..       - **Operation** - Clone from Image Service
+..       - **Image** - WinToolsVM.qcow2
+..       - Select **Add**
+..
+..    - Select **Add New NIC**
+..       - **VLAN Name** - Secondary
+..       - Select **Add**
+..
+.. #. **Save** をクリックしてVMを作成します。
+..
+.. #. *Initials*\ **-WinToolsVM** を起動します。

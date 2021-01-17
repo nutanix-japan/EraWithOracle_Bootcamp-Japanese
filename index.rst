@@ -26,8 +26,8 @@
   :name: _appendix
   :hidden:
 
-  tools_vms/windows_tools_vm
-  tools_vms/linux_tools_vm
+  .. tools_vms/windows_tools_vm
+  .. tools_vms/linux_tools_vm
   appendix/glossary
 
 .. _getting_started:
@@ -43,8 +43,8 @@ What's New
 ++++++++++
 
 - ワークショップは以下のソフトウェアバージョンで動作します:
-    - AOS 5.11.x / 5.15.x / 5.16.x
-    - PC 5.16.x
+   - AOS 5.15.x / 5.16.x / 5.17.x / 5.18.x
+   - PC 2020.9
 
 - オプションラボ アップデート:
 
@@ -210,7 +210,7 @@ RTP クラスタ:
 Frame VDI
 .........
 
-Login to: https://frame.nutanix.com/x/labs
+Login to: https://console.nutanix.com/x/labs
 
 **Nutanix社員** - Use your **NUTANIXDC** credentials
 **その他のユーザー** - Use **Lab Access User** Credentials
